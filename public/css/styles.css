@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+    background-color: #eef1ef;
+}
+
+.upper{
+    background-color: white;
+    border-bottom: 1px solid #e4e6e5;
+    padding-bottom: 11px;
+}
+
+#logo{
+   width: 100px;
+   height: 100px;
+}
+
+#input{
+    margin-top: 36px;
+    border: 1px solid #d6cece;
+    width: 206px;
+    border-radius: 3px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#search{
+    border: none;
+    outline: none;
+    background: #eef1ef;
+}
+#clicksearch{
+    border:none;
+    background: none;
+    outline: none;
+    transition: 1ms ease-in-out;
+    transform: scale(1);
+}
+#clicksearch:hover{
+    cursor: pointer;
+    transition: 1ms ease-in-out;
+    transform: scale(0.9);
+}
+
+#sh-ico{
+    color: #c0c0c0;
+}
+
+.connect{
+    margin-top: 40px;
+}
+
+#reg,#log{
+    text-decoration: none;
+    color:#989797;
+}
+
+#reg:hover,#log:hover{
+    color:black;
+}
+
+.icon{
+    color : #989797;
+    margin-right: 10px;
+}
+
+.session{
+    margin-top:40px;
+}
+
+#add-donation{
+    width: 44px;
+    border:1px solid #e7e7e7;
+    border-radius: 5px;
+    outline: none;
+    background-color: #f9f9f9;
+}
+
+#add-donation:hover{
+    transform: scale(0.9);
+    transition: 10ms ease-in-out;
+    cursor: pointer;
+}
+
+#plus{
+  color: #bbbbbb;
+}
+
+#profileName{
+    color: #8f8e8e;
+}
+
+#imgProfile{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#dropdownMenu3{
+    cursor: pointer;
+}
+
+.main{
+    margin-top: 76px;
+}
+
+.inputResult{
+    border: 1px solid #dbdbda;
+    background-color: white;
+    border-radius: 5px;
+    height: 57px;
+    padding: 15px;
+}
+
+#result{
+    color: #baafaf;
+}
+
+#resultLast{
+    color : #c5c5c5 !important;
+}
+
+#count{
+    float:right;
+    color: #c7bbbb;
+}
+
+
+.card-title{
+    color: #949494;
+}
+.informations{
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    display: inline;
+
+}
+
+#name{
+    color : #8d8d8d;
+}
+
+#path{
+    text-decoration: none;
+}
+#path:hover{
+    color: black;
+}
+
+#view{
+    float: right;
+}
+#a{
+    text-decoration: none;
+    color: #949494;
+}
+
+
+#a:hover{
+    color: black;
+}
+
+.aa{
+    text-decoration: none;
+    color : #717171;
+}
+
+.con{
+    float:right;
+}
+
+.all{
+    background: none;
+    outline: none;
+    border:1px solid #e7e7e7;
+    border-radius: 5px;
+    outline: none;
+}
+
+.all:hover{
+    cursor: pointer;
+}
+
+.font{
+    color:#d6d6d6;
+}
+
+.loading{
+    margin-left: 35%;
+    border-radius: 5px;
+    width: 302px;
+    height: 185px;
+    padding: 25px;
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin-left: 63px;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  footer{
+      background-color: #2f2f2f;
+      color: white;
+      padding: 25px;
+      text-align: center;
+  }
+
+  #na{
+      text-decoration: none;
+      color: white;
+  }
